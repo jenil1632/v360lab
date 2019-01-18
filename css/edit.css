@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+
+#details{
+  flex: 3;
+}
+.edittab{
+  display: flex;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  align-items: start;
+}
+
+.edittab label{
+  flex: 1.5;
+}
+
+.edittab input{
+  flex: 3;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em;
+  width: 75%;
+}
+
+form{
+  width: 80%;
+}
+
+#state, #city{
+  flex: 3;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  padding: 0.7em 2.5em 0.7em 2.5em;
+}
+
+button[type="submit"]{
+  color: white;
+  background-color: #190729;
+  margin-left: auto;
+  margin-right: 0.5em;
+}
+
+button[type="reset"]{
+  margin-right: auto;
+  margin-left: 0.5em;
+}
+
+.buttons{
+  display: flex;
+  padding-top: 1.5em;
+}
+
+.edittablogo{
+  display: flex;
+  flex: 3;
+  align-items: start;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #190729;
+    color: white;
+}
+
+#cover{
+  flex-grow: 0.5;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+/*media queries*/
+@media(max-width: 771px)
+{
+  #details{
+    display: block;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  .edittab{
+    display: block;
+  }
+
+  .edittab input{
+    margin-top: 0.3em;
+    display: block;
+    width: 100%;
+  }
+
+  .edittablogo{
+    padding-top: 0.3em;
+  }
+
+  input[type="file"] {
+      display: none;
+  }
+
+  #state, #city{
+    margin-top: 0.3em;
+    display: block;
+    width: 100%;
+  }
+}

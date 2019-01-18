@@ -1,0 +1,74 @@
+.description{
+  background-color: #190729;
+  color: white;
+  flex: 1;
+  padding-right: 1em;
+}
+
+#main-content{
+  align-items: center;
+}
+
+.description hr{
+  width: 50%;
+  margin-left: 1.7em;
+}
+
+#rotator{
+  flex: 1;
+  order: -1;
+}
+
+h1{
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+.description p{
+  padding-bottom: 2.5em;
+  padding-left: 1.7em;
+  padding-right: 0.75em;
+}
+
+#whatdowedo hr{
+  width: 10%;
+}
+
+#whatdowedo{
+  padding-top: 4em;
+}
+
+h2, h3
+{
+  text-align: center;
+}
+
+#sub-content{
+  display: flex;
+  padding-top: 2em;
+}
+
+.slab{
+  flex: 1;
+  padding: 1em;
+}
+
+#sub-content img{
+  height: 250px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.slab p{
+  text-align: center;
+}
+
+@media(max-width: 771px) {
+#sub-content{
+  display: block;
+}
+#whatdowedo{
+  padding-top: 1.5em;
+}
+}
